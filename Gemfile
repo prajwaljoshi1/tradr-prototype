@@ -3,9 +3,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-# Use postgresql as the database for Active Record
-gem 'pg', '~> 0.15'
-gem  'devise'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+gem 'devise'
+gem 'annotate'
+gem 'pry-rails'
+gem 'stock_quote'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Use SCSS for stylesheets
